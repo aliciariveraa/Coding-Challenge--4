@@ -28,3 +28,12 @@ do {
     console.log(`Response count: ${responses}`);
 } while (responses < 3);
 console.log("Survey completed.");
+// Task 5: Employee Information
+let employee = {
+    name: "Nathan",
+    position: "Doctor",
+    salary: 125000
+};
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);
+}
