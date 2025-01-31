@@ -47,3 +47,11 @@ let orders = [101, 102, 103]; // Array of order IDs
 orders.forEach(order => {
     console.log(`Order ID: ${order}`);
 });
+// Task 8: Tax Calculation
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+let amount = 400; // Example amount
+let taxRate = 0.09; // 9% tax rate
+let tax = calculateTax(amount, taxRate);
+console.log(`Calculated tax: $${tax.toFixed(2)}`);
