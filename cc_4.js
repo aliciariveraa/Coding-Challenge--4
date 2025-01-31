@@ -7,3 +7,10 @@ if (purchaseAmount > 100) {
 }
 let finalAmount = purchaseAmount - (purchaseAmount * discount);
 console.log(`Final amount after discount: $${finalAmount.toFixed(2)}`);
+// Task 2: Sales Report
+let sales = [120, 85, 200, 150, 90]; // Array of sales figures
+let totalSales = 0;
+for (let i = 0; i < sales.length; i++) {
+    totalSales += sales[i]; // Adding each sales figure to totalSales
+}
+console.log(`Total sales: $${totalSales}`);
