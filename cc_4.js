@@ -21,3 +21,10 @@ while (stock > 0) {
     stock--; // Decreasing stock by 1 in each loop
 }
 console.log("Inventory is now depleted.");
+// Task 4: Customer Survey
+let responses = 0; // Starting with 0 responses
+do {
+    responses++;
+    console.log(`Response count: ${responses}`);
+} while (responses < 3);
+console.log("Survey completed.");
