@@ -55,3 +55,11 @@ let amount = 400; // Example amount
 let taxRate = 0.09; // 9% tax rate
 let tax = calculateTax(amount, taxRate);
 console.log(`Calculated tax: $${tax.toFixed(2)}`);
+// Task 9: Discount Application
+let applyDiscount = function(price, discountPercentage) {
+    return price - (price * discountPercentage);
+};
+let price = 144; // Example price
+let discountPercentage = 0.1; // 10% discount
+let discountedPrice = applyDiscount(price, discountPercentage);
+console.log(`Discounted price: $${discountedPrice.toFixed(2)}`);
