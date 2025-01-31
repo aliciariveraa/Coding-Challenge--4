@@ -14,3 +14,10 @@ for (let i = 0; i < sales.length; i++) {
     totalSales += sales[i]; // Adding each sales figure to totalSales
 }
 console.log(`Total sales: $${totalSales}`);
+// Task 3: Inventory Depletion
+let stock = 10; // Initial stock value
+while (stock > 0) {
+    console.log(`Stock remaining: ${stock}`);
+    stock--; // Decreasing stock by 1 in each loop
+}
+console.log("Inventory is now depleted.");
