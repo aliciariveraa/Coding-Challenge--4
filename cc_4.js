@@ -63,3 +63,10 @@ let price = 144; // Example price
 let discountPercentage = 0.1; // 10% discount
 let discountedPrice = applyDiscount(price, discountPercentage);
 console.log(`Discounted price: $${discountedPrice.toFixed(2)}`);
+// Task 10: Loyalty Points
+let calculatePoints = (purchaseAmount) => {
+    return Math.floor(purchaseAmount / 10); // 1 point for every $10 spent
+};
+let purchaseAmount = 250; // Example purchase amount
+let points = calculatePoints(purchaseAmount);
+console.log(`Points earned: ${points}`);
